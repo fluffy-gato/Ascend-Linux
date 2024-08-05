@@ -1,3 +1,3 @@
 # Ascend-Linux
-![](https://github.com/fluffy-gato/Ascend-Linux/blob/08eaf3b0ff353210c94730e0b23b2a8d2906003f/ascend.png)
+![](https://github.com/fluffy-gato/Ascend-Linux/blob/d2a689b9f1f615540b33cf93e5b566f1c253d00a/ascend.png)
 Ascend Linux is a fork of Totoro Linux.
