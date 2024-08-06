@@ -94,7 +94,7 @@ else
               mv gnome-packages.txt /mnt/packages.txt
               wget https://raw.githubusercontent.com/trurune/totoro-linux/master/issue
                mv issue /mnt/etc/issue
-        wget https://raw.githubusercontent.com/trurune/totoro-linux/master/os-release
+        wget https://raw.githubusercontent.com/fluffy-gato/Ascend-Linux/testing/os-release
          mv os-release /mnt/etc/os-release
               arch-chroot /mnt pacman -Sy gdm gnome gnome-extras kitty firefox networkmanager --noconfirm
                echo "Finished!"
@@ -103,7 +103,7 @@ else
         then
          wget https://raw.githubusercontent.com/trurune/totoro-linux/master/issue
                mv issue /mnt/etc/issue
-        wget https://raw.githubusercontent.com/trurune/totoro-linux/master/os-release
+        wget https://raw.githubusercontent.com/fluffy-gato/Ascend-Linux/testing/os-release
          mv os-release /mnt/etc/os-release
         arch-chroot /mnt pacman -S networkmanager --noconfirm
         fi
@@ -113,7 +113,7 @@ else
               mv xfce-packages.txt /mnt/packages.txt
               wget https://raw.githubusercontent.com/trurune/totoro-linux/master/issue
                mv issue /mnt/etc/issue
-        wget https://raw.githubusercontent.com/trurune/totoro-linux/master/os-release
+        wget https://raw.githubusercontent.com/fluffy-gato/Ascend-Linux/testing/os-release
          mv os-release /mnt/etc/os-release
               arch-chroot /mnt pacman -Sy xorg xfce4 kitty firefox networkmanager sddm --noconfirm
              echo "Finished!"
@@ -124,7 +124,7 @@ else
               mv plasma-packages.txt /mnt/packages.txt
               wget https://raw.githubusercontent.com/trurune/totoro-linux/master/issue
                mv issue /mnt/etc/issue
-        wget https://raw.githubusercontent.com/trurune/totoro-linux/master/os-release
+        wget https://raw.githubusercontent.com/fluffy-gato/Ascend-Linux/testing/os-release
          mv os-release /mnt/etc/os-release
               arch-chroot /mnt pacman -Sy xorg plasma-desktop sddm firefox kitty networkmanager --noconfirm
                echo "Finished!"
