@@ -3,7 +3,9 @@ echo "Installing Ascend Linux"
 sleep 3
 clear
 fdisk -l
+sleep 1
 echo "WARNING: Choosing the wrong disk may cause data loss!"
+sleep 1
 echo "What is your disk (/dev/xxx)?"
 read DISK
 if [[ $DISK =~ "nvme" ]]; then
